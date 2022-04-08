@@ -1,3 +1,4 @@
+"use strict";
 // maximumIndex is the function that can find the maximum index that can be
 // reached from index 0.
 var maximumIndex = function (steps, badIndex) {

@@ -1,12 +1,12 @@
 // maximumIndex is the function that can find the maximum index that can be
 // reached from index 0.
-const maximumIndex = (steps: number, badIndex: number) => {
+const maximumIndex = (steps: number, badIndex: number): number => {
     // Initial
-    let i = -1;
-    let j = 1;
+    let i: number = -1;
+    let j: number = 1;
 
     // Maximum looping is N+1 (when meet bad index).
-    for (let step = 1; step <= steps; step++) {
+    for (let step: number = 1; step <= steps; step++) {
         if ((i + step) === badIndex) {
             steps++;
             continue;
@@ -20,19 +20,19 @@ const maximumIndex = (steps: number, badIndex: number) => {
 }
 
 // example test case from example
-const example = () => {
-    let steps = 4;
-    let badIndex = 6;
-    let maxIndex = maximumIndex(steps, badIndex);
+const example = (): void => {
+    let steps: number = 4;
+    let badIndex: number = 6;
+    let maxIndex: number = maximumIndex(steps, badIndex);
     console.log("Example");
     console.log(`The maximum index that can be reached is ${maxIndex}.`);
 }
 
 // sampleCase test case from sample case
-const sampleCase = () => {
-    let steps = 3;
-    let badIndex = 3;
-    let maxIndex = maximumIndex(steps, badIndex);
+const sampleCase = (): void => {
+    let steps: number = 3;
+    let badIndex: number = 3;
+    let maxIndex: number = maximumIndex(steps, badIndex);
     console.log("Sample Case");
     console.log(`The maximum index that can be reached is ${maxIndex}.`);
 }
