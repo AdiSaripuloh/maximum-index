@@ -60,3 +60,6 @@ Scenario:
 - At step 2, move 2 units to index 0 + 2 = 2.
 - At step 3, move 3 units to index 2 + 3 = 5.
 The maximum index that can be reached is 5.
+
+# Result
+![img.png](img.png)
