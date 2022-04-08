@@ -1,0 +1,27 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "description": "There is an infinite array of integers numbered consecutively from 0. At each step, a pointer can move from index i to index i + j, or remain where it is. The value of i begins at 0. The value of j begins at 1 and at each step, j increments by 1. There is one known index that must be avoided. Determine the highest index that can be reached in a given number of steps.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node public/app.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdiSaripuloh/maximum-index.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdiSaripuloh/maximum-index/issues"
+  },
+  "homepage": "https://github.com/AdiSaripuloh/maximum-index#readme",
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.4",
+    "typescript": "^4.6.3"
+  }
+}

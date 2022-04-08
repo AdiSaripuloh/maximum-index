@@ -1,4 +1,4 @@
-# Maximum Index
+# Question
 
 There is an infinite array of integers numbered consecutively from 0. At each step, a pointer can
 move from index i to index i + j, or remain where it is. The value of i begins at 0. The value of j
@@ -60,6 +60,11 @@ Scenario:
 - At step 2, move 2 units to index 0 + 2 = 2.
 - At step 3, move 3 units to index 2 + 3 = 5.
 The maximum index that can be reached is 5.
+
+# Run
+- Install packages `npm install`
+- Run test `npm test`
+- Run app `npm start`
 
 # Result
 ![img.png](public/assets/images/img.png)
