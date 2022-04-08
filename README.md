@@ -62,4 +62,4 @@ Scenario:
 The maximum index that can be reached is 5.
 
 # Result
-![img.png](img.png)
+![img.png](public/assets/images/img.png)
